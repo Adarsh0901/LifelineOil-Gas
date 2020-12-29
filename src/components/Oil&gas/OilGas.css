@@ -1,0 +1,95 @@
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+  
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 70px;
+    font-family: poppins;
+}
+
+
+.About-Oil-Gas-back{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.About-Oil-Gas{
+    font-size: 18px;
+    
+}
+
+.Oil-Gas-Detail{
+    background-color: #1a73ab;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 400px;
+}
+
+.OGC-Text{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.OGC-Head{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.OGC-para{
+    font-size: 18px;
+    color: white;
+}
+
+.card{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.OGC-Img-Gallery{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.card-title{
+    font-size: 30px;
+}
+
+.card-text{
+    font-size: 17px;
+}
+
+@media screen and (max-width:700px){
+    
+
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 500;
+        font-size: 45px;
+    }
+
+    .OGC-Text{
+        margin-left: auto;
+    }
+
+    .Oil-Gas-Detail{
+        background-color: #1a73ab;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 900px;
+    }
+    
+}

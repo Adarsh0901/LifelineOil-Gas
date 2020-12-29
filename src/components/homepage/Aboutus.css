@@ -1,0 +1,85 @@
+.About-Us-Head{
+    margin-top: 30px;
+    color: darkblue;
+    font-weight: 700;
+}
+
+.About-Us-Desc{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.About-Us-Img{
+    height: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 550px;
+}
+
+.Vision-back{
+    margin-top: 40px;
+    background-color: #2a6dbf;
+}
+
+.Vision-img{
+    margin-left: 40px;
+    margin-top: 50px;
+    height: 350px;
+}
+
+.Vision-head{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Vision-desc{
+    font-size: 15px;
+    font-family: poppins;
+    text-align: justify;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.HSE-Head{
+    font-weight: 700;
+    color: darkblue;
+    margin-top: 50px;
+}
+
+.HSE-Desc{
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media screen and (max-width:700px){
+    .About-Us-Head{
+        margin-top: 10px;
+        color: darkblue;
+        font-weight: 700;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .About-Us-Desc{
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+    .Vision-img{
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 350px;
+        width: 360px;
+    }
+
+    .About-Us-Img{
+        height: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 360px;
+    }
+}
